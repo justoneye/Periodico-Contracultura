@@ -1,0 +1,165 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+header
+{  
+	background-image: url("Portada.jpg");
+	background-color: #ffc815;
+	background-position: center;
+  background-repeat: no-repeat;
+  width:100%
+
+}
+
+#logo
+{
+	align-content: center;	
+}
+
+#cuerpo
+{
+	 padding: 1% 10% 1% 10%;	
+}
+
+.display-2
+{
+	color: #585858;
+	font-size: 40px;
+	text-align: center;
+}
+
+hr
+{
+	size: 500px;
+	color: black;
+}
+
+h1
+{
+	padding: 0% 0% 3% 0%;
+}
+
+.col-sm-4 thumbnail, col-sm-8
+{
+	aling-content: left;
+}
+
+h3
+{
+	align-content:center;
+}
+
+.img-fluid
+{
+	max-width: 33%;
+	align-content:center;
+}
+
+.mx-auto d-block
+{
+	max-width: 33%;
+}
+
+#footer
+{
+	margin: 0%, 5%, 0%, 5%;
+	background-color: #000000;
+	color: #ffffff;
+	padding: 0%, 5%, 0%, 5%;
+}
+
+#footer hr
+{
+	color: #ffffff;
+}
+
+i
+{
+	 font-size: 100px;
+	 color: #f6c35b;
+}
+
+h5
+{
+	align-content:center;
+}
+
+
+.rounded-circle.img-fluid
+{
+	width: 50%;
+}
+
+#opinion .row .col
+{
+	padding:  3% 0% 2% 0%;
+	margin-left: 0%;
+	margin-right: 1%;
+	margin-bottom: 3%;
+	border-radius: 5px 5px 5px 5px;
+	background-color: #585858;
+	text-align: center;
+}
+
+#footer .row .col-sm-6
+{
+	font-size: large;
+}
+
+.row .btn.btn-light
+{
+	left: -50%;
+	right: -50%;
+}
+
+em
+{
+	color: #ffc815;
+	font-size: 300px;
+}
+
+/*GALERIA*/
+
+.gallery
+{
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+	-webkit-column-width: 50%;
+	-moz-column-width: 50%;
+	column-width: 50%;
+}
+
+.gallery .pics
+{
+-webkit-transition: all 350ms ease;
+transition: all 350ms ease;
+}
+
+.gallery .animation
+{
+-webkit-transform: scale(1);
+-ms-transform: scale(1);
+transform: scale(1);
+}
+
+@media (max-width: 450px)
+{
+	.gallery
+	{
+	-webkit-column-count: 1;
+	-moz-column-count: 1;
+	column-count: 1;
+	-webkit-column-width: 100%;
+	-moz-column-width: 100%;
+	column-width: 100%;
+	}
+}
+
+@media (max-width: 400px)
+{
+	.btn.filter
+	{
+	padding-left: 1.1rem;
+	padding-right: 1.1rem;
+	}
+}

@@ -1,0 +1,379 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="estilo.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	
+	<!--SCRIPTS-->	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+	
+	<!--FUENTES-->
+	<link href="https://fonts.googleapis.com/css?family=Major+Mono+Display|Montserrat" rel="stylesheet">
+    
+    <!--ICONOS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+    <title>Periodico Contracultura</title>
+</head>
+
+<body>
+
+<div class="container-fluid">    
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+                Secciones
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#Arte">Arte</a>
+                <a class="dropdown-item" href="#Eventos">Eventos</a>
+                <a class="dropdown-item" href="#Opinion">Opinion</a>
+                <a class="dropdown-item" href="#Galeria">Galeria</a>
+                <hr>
+                
+              </div>
+            </li>
+          </ul>
+        </nav>
+        
+        <header>
+            <h1 align="center">PERIODICO CONTRACULTURA</h1>
+            <!--SCRIPTS<img src="img/logo.jpg" class="rounded-circle" id="logo" alt="ContraCultura" width="20%" height="20%"> -->
+        </header>
+		
+        <div id = "barra">
+            <p class="bg-dark text-white"> Bogotá D.C., <time datetime="2019-02-2008T12:00-05:00">20 de Febrero de 2019</time> </p>
+        </div>	
+</div>
+	
+
+	
+<div class="container-fluid" id="cuerpo">
+
+<hr class="seccion">
+    
+    <div class="container-fluid" id="Arte">
+      <h1 class="display-2">ARTE</h1>
+      <div class="row">
+          <div class="col" id="articulo1">
+            <h3>Ruben Trespalacios</h3>
+            <img src="Articulos/imgs/art11.jpeg" class="img-thumbnail" alt="Articulo" width="304" height="236">
+            <p class="resumen">"El barranquillero expone en Bogotá. Su Obra ha sido bien recibida por la crítica."</p>  
+              <a href="Articulos/articulo1.html" class="btn btn-warning" role="button" type="button" align="right">Seguir Leyendo</a>
+        </div>
+        
+        <div class="col" id="articulo2">
+              <h3>Roma</h3>
+              <img src="Articulos/imgs/art21.jpg" class="img-thumbnail" alt="Articulo" width="304" height="236">
+              <p class="resumen">"Jacqui Orie es trabajadora del hogar y activista de Estados Unidos."</p>
+              <a href="Articulos/articulo2.html" class="btn btn-warning" role="button" type="button" align="right">Seguir Leyendo</a>
+        </div>
+        
+        <div class="col" id="articulo3">
+              <h3>Vicent Van Gogh</h3>
+              <img src="Articulos/imgs/art31.jpg" class="img-thumbnail" alt="Articulo" width="304" height="236">
+              <p class="resumen">"El 7 de marzo se estrena ‘Van Gogh en la puerta de la eternidad’ protagonizada por Willem Dafoe."</p> 
+              <a href="Articulos/articulo3.html" class="btn btn-warning" role="button" type="button" align="right">Seguir Leyendo</a>
+        </div>  
+    </div> <hr class="seccion">
+    
+    <section class="seccion" id="eventos">
+      <h1 class="display-2">EVENTOS</h1>
+        <div class="row">
+                 <div class="col-sm-4 thumbnail" align="right">
+                <img src="img/Evento1.png" alt="Evento"  width="250">
+            </div>
+    
+            <div class="col-sm-8">
+                <h3>Taller de escritura</h3>        	 
+                    <p class="resumen">"El curso dura cuatro días y está pensado para que en este lapso los participantes afinen la forma de trabajar sus textos y ejerciten al “editor personal” que llevan dentro."</p> 
+                	<button type="button" class="btn btn-warning" align="right">Seguir Leyendo</button>
+            </div>
+                
+            <div class="col-sm-4 thumbnail" align="right">
+                <img src="img/Evento2.png" alt="Evento" width="250">
+            </div>
+    
+            <div class="col-sm-8">
+                <h3>Nuevas Voces</h3>        	 
+                    <p class="resumen">"El programa busca darles la oportunidad a autores inéditos, sean jóvenes o no, de hacer sus primeras publicaciones"</p> 
+				<button type="button" class="btn btn-warning" align="right">Seguir Leyendo</button>
+            </div>
+        </div>
+    </section>
+	</div> <hr class="seccion">
+    
+   <!-- https://www.w3schools.com/booTsTrap/tryit.asp?filename=trybs_scrollspy&stacked=h-->
+    
+    <div class="container-fluid" id="opinion" >
+      <h1 class="display-2">OPINION</h1>
+          <div class="row">  
+			
+			<div class="col" id="opinion1">
+         		<img src="img/Columnista1.jpg" class="rounded-circle img-fluid" alt="Placeholder image">
+      			<h3>La estética de la Gordura</h3>
+                <p class="resumen">"Lo humano se ha hecho arte. Un arte avasallante que nos muestra la maravilla pero igualmente la ruina."</p>
+              <a href="Articulos/opinion1.html" class="btn btn-light" role="button" type="button" align="right">Seguir Leyendo</a>
+            </div>
+			  
+			<div class="col" id="opinion2">
+         		<img src="img/Columnista2.jpg" class="rounded-circle img-fluid" alt="Placeholder image">
+   			  <h3>¿Qué hay al final del arcoiris?</h3>
+                <p class="resumen">"Esta muestra explora los conceptos de territorio, fronteras y globalización, bajo la mirada de varios artistas."</p>
+			  <a href="Articulos/opinion2.html" class="btn btn-light" role="button" type="button" align="right">Seguir Leyendo</a>
+            </div>
+    
+            <div class="col" id="opinion3">
+                  <img src="img/Columnista3.jpg" class="rounded-circle img-fluid" alt="Placeholder image">
+                  <h3>Escribir no es dicha absoluta</h3>
+                  <p class="resumen">"El oficio de escribir, influencias literarias y nuevos proyectos, que incluyen una serie de televisión basada en su novela."</p>
+                  <a href="Articulos/opinion3.html" class="btn btn-light" role="button" type="button" align="right">Seguir Leyendo</a>
+            </div>  
+            
+               <div class="col" id="opinion4">
+                  <img src="img/Columnista4.jpg" class="rounded-circle img-fluid" alt="Placeholder image">
+                  <h3>¿El arte actual es un fraude?</h3>
+                  <p class="resumen">"Críticas feroces del arte contemporáneo y contraste de ideas con las de artistas, curadores y expertos."</p>
+			     <a href="Articulos/opinion4.html" class="btn btn-light" role="button" type="button" align="right">Seguir Leyendo</a>
+            </div> 
+        </div>
+    </div>
+
+    <hr class="seccion">
+    
+    	<div class="container-fluid" id="Galeria">
+          <h1 class="display-2">GALERIA</h1>
+          <div class="row">
+            <div class="gallery" id="gallery">
+            <div class="col-md-12">
+              <div class="mdb-lightbox no-margin">
+                <figure class="col-md-4">
+                  <a href="img/Galeria01.jpg" data-size="800x690">
+                    <img alt="picture" src="img/Galeria01.jpg"
+                      class="img-fluid">
+                  </a>
+                </figure>
+                
+                <figure class="col-md-4">
+                  <a href="img/Galeria02.jpg" data-size="800x690">
+                    <img alt="picture" src="img/Galeria02.jpg"
+                      class="img-fluid">
+                  </a>
+                </figure>
+                
+                <figure class="col-md-4">
+                  <a href="img/Galeria03.jpg" data-size="800x690">
+                    <img alt="picture" src="img/Galeria03.jpg"
+                      class="img-fluid">
+                  </a>
+                </figure>
+                
+                <figure class="col-md-4">
+                  <a href="img/Galeria04.jpg" data-size="800x690">
+                    <img alt="picture" src="img/Galeria04.jpg"
+                      class="img-fluid">
+                  </a>
+                </figure>
+                
+                <figure class="col-md-4">
+                  <a href="img/Galeria05.jpg" data-size="800x690">
+                    <img alt="picture" src="img/Galeria05.jpg"
+                      class="img-fluid">
+                  </a>
+                </figure>
+                
+                 <figure class="col-md-4">
+                  <a href="img/Galeria06.jpg" data-size="800x690">
+                    <img alt="picture" src="img/Galeria06.jpg"
+                      class="img-fluid">
+                  </a>
+                </figure>
+                
+                <figure class="col-md-4">
+                  <a href="img/Galeria07.jpg" data-size="800x690">
+                    <img alt="picture" src="img/Galeria07.jpg"
+                      class="img-fluid">
+                  </a>
+                </figure>
+                
+                <figure class="col-md-4">
+                  <a href="img/Galeria08.jpg" data-size="800x690">
+                    <img alt="picture" src="img/Galeria08.jpg"
+                      class="img-fluid">
+                  </a>
+                </figure>
+                
+                <figure class="col-md-4">
+                  <a href="img/Galeria09.jpg" data-size="800x690">
+                    <img alt="picture" src="img/Galeria09.jpg"
+                      class="img-fluid">
+                  </a>
+                </figure>
+                
+                <figure class="col-md-4">
+                  <a href="img/Galeria10.jpg" data-size="811x691">
+                    <img alt="picture" src="img/Galeria10.jpg"
+                      class="img-fluid">
+                  </a>
+                </figure>
+                
+                <figure class="col-md-4">
+                  <a href="img/Galeria11.jpg" data-size="811x691">
+                    <img alt="picture" src="img/Galeria11.jpg"
+                      class="img-fluid">
+                  </a>
+                </figure>
+                
+                <figure class="col-md-4">
+                  <a href="img/Galeria12.jpg" data-size="811x691">
+                    <img alt="picture" src="img/Galeria12.jpg"
+                      class="img-fluid">
+                  </a>
+                </figure>
+                
+                <figure class="col-md-4">
+                  <a href="img/Galeria13.jpg" data-size="811x691">
+                    <img alt="picture" src="img/Galeria13.jpg"
+                      class="img-fluid">
+                  </a>
+                </figure>
+                
+                <figure class="col-md-4">
+                  <a href="img/Galeria14.jpg" data-size="811x691">
+                    <img alt="picture" src="img/Galeria14.jpg"
+                      class="img-fluid">
+                  </a>
+                </figure>
+                
+                <figure class="col-md-4">
+                  <a href="img/Galeria15.jpg" data-size="811x691">
+                    <img alt="picture" src="img/Galeria15.jpg"
+                      class="img-fluid">
+                  </a>
+                </figure>
+                
+                 <figure class="col-md-4">
+                  <a href="img/Galeria16.jpg" data-size="811x691">
+                    <img alt="picture" src="img/Galeria16.jpg"
+                      class="img-fluid">
+                  </a>
+                </figure>
+                
+                <figure class="col-md-4">
+                  <a href="img/Galeria17.jpg" data-size="811x691">
+                    <img alt="picture" src="img/Galeria17.jpg"
+                      class="img-fluid">
+                  </a>
+                </figure>
+                
+                <figure class="col-md-4">
+                  <a href="img/Galeria18.jpg" data-size="811x691">
+                    <img alt="picture" src="img/Galeria18.jpg"
+                      class="img-fluid">
+                  </a>
+                </figure>
+                </div>
+              </div>
+            </div>
+          </div> 
+    </div>
+
+<hr class="seccion">    
+    
+    <div class="container-fluid" id="footer">
+        <h4 align="center" style="color: #ffc815">PERIODICO CONTRACULTURA</h4>  	
+        <hr>
+        
+        <div class="row">
+        	<div class="col-sm-4">                 
+        	<label for="email">Suscribase a nuestro correo:</label>            
+            <form class="form-inline">
+              <div class="form-group">                               
+                <input type="email" class="form-control" id="email">
+              </div>
+              <button type="button" class="btn btn-default" data-toggle="modal" data-target="#CorreoInscrito"><i class="fa fa-envelope-o"></i></button>
+            </form>            
+            </div>
+            
+            <div class="col-sm-4"> Siguenos en: <br>
+            <em class="fa fa-facebook-square"></em> <em class="fa fa-twitter-square"></em> <em class="fa fa-instagram"></em> <em class="fa fa-youtube"></em></div> 
+            
+            <div class="col-sm-4"> 
+            Términos de Uso <br> Habeas Data <br> Cookies <br> Contáctenos <br> Preguntas <br> Ayuda< /div>     
+            </div>
+        <hr class="separador">
+            
+            <h6 align="center" style="color: #ffc815"> COPYRIGHT (r) 2019 REVISTA CONTRACULTURA </h6>
+  </div>
+		
+<!--MODALS-->
+		
+<div class="modal fade" id="TerminosDeUso" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ModalTitulo">Términos de Uso</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        
+      </div>
+    </div>
+  </div>
+</div>
+		
+
+	https://www.w3schools.com/bootstrap4/bootstrap_ref_js_modal.asp
+  https://mdbootstrap.com/docs/jquery/modals/basic/
+  https://mdbootstrap.com/docs/jquery/modals/additional/
+  https://mdbootstrap.com/docs/jquery/modals/forms/#introduction
+  https://getbootstrap.com/docs/4.0/components/buttons/
+  
+		
+	<div class="modal fade" id="CorreoInscrito" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Correo Suscrito</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Ahora su correo está en nuestra base de datos. <br>Bienvenido a Periódico Contracultura.
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<!--https://mdbootstrap.com/plugins/jquery/gallery/-->
+
+
+
+<!--/*SCRIPTS*/-->
+<script>
+$(function ()
+{
+	$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+});
+</script>
+    
+</body>
+</html>
+
+	
+	
+<!--https://www.color-hex.com/color-palette/18197-->
